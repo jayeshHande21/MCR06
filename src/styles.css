@@ -1,0 +1,67 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.btnContainer {
+  background-color: orangered;
+  padding: 10px;
+  color: white;
+  /* margin-right: "10px"; */
+  font-weight: bolder;
+  font-size: 18px;
+  border-radius: 0.5em;
+}
+.menuCard {
+  box-shadow: rgba(rgb(168, 52, 52), 0, 0, 2px);
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 2rem;
+  margin: 10px;
+  background-color: black;
+  color: white;
+  opacity: 0.5;
+}
+
+.menuCard:hover {
+  opacity: 1;
+}
+
+button {
+  cursor: pointer;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #d13913;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect */
+}
+/* modal.css */
+.modal {
+  background: rgba(255, 255, 255, 0.095);
+  background-color: rgb(248, 133, 133);
+  padding: 20px;
+  width: 500px;
+  margin: auto;
+  height: 500px;
+  margin-top: 50px;
+  border-radius: 3rem;
+}
+
+.modal button {
+  background: orangered;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
